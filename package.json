@@ -10,11 +10,15 @@
     "@reduxjs/toolkit": "^2.2.1",
     "react-scripts": "5.0.1"
   },
+  {
+  "homepage": "https://zakriamuhammad986-code.github.io/Conference-Expense-Planner",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  }
+}
   },
   "eslintConfig": {
     "extends": ["react-app"]
