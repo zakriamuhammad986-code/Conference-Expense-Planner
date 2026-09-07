@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Conference-Expense-Planner/static/css/main.f072da6b.css",
+    "main.js": "/Conference-Expense-Planner/static/js/main.7ed05427.js",
+    "index.html": "/Conference-Expense-Planner/index.html",
+    "main.f072da6b.css.map": "/Conference-Expense-Planner/static/css/main.f072da6b.css.map",
+    "main.7ed05427.js.map": "/Conference-Expense-Planner/static/js/main.7ed05427.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f072da6b.css",
+    "static/js/main.7ed05427.js"
+  ]
+}
