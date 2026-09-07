@@ -1,0 +1,75 @@
+.psec {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--space-4);
+  scroll-margin-top: 4.5rem;
+}
+
+.psec--alt {
+  background: var(--paper-raised);
+  max-width: none;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.psec--alt > * {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.psec__title {
+  font-size: 1.6rem;
+}
+
+.psec__intro {
+  color: var(--slate);
+  margin-top: 0.4rem;
+  max-width: 55ch;
+}
+
+.psec__list {
+  list-style: none;
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.psec__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.psec__row-name {
+  font-weight: 500;
+}
+
+.psec__row-meta {
+  color: var(--slate);
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.psec__count {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.psec__count-label {
+  font-size: 0.85rem;
+  color: var(--slate);
+}
+
+.psec__count input {
+  width: 4rem;
+  padding: 0.5rem;
+  border: 1px solid var(--line-strong);
+  background: var(--paper-raised);
+  font-size: 1rem;
+  text-align: center;
+}
